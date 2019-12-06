@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
   <title>Shri Dwarkadhish Testing Labs</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="Shri Dwarkadhish Testing Labs, Testing Labs, Testing Lab, Testing, Lab, Haldwani, Uttarakhand, Nainital, India" name="keywords">
@@ -12,7 +12,7 @@
   </script>
   <!-- Favicons -->
   <link href="<?php echo base_url('assets/img/favicon.png');?>?ver=1.1" rel="icon">
-  <link href="<?php echo base_url('assets/img/apple-touch-icon.png');?>" rel="apple-touch-icon">
+  <link href="<?php echo base_url('assets/img/apple-touch-icon.png');?>?ver=1.1" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
@@ -32,7 +32,7 @@
   <link href="<?php echo base_url('assets/css/nivo-slider-theme.css');?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="<?php echo base_url('assets/css/style.css');?>?ver=1.1" rel="stylesheet">
+  <link href="<?php echo base_url('assets/css/style.css');?>?ver=1.3" rel="stylesheet">
 
   <!-- Responsive Stylesheet File -->
   <link href="<?php echo base_url('assets/css/responsive.css');?>?ver=1.1" rel="stylesheet">

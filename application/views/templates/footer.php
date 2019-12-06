@@ -7,9 +7,9 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <h2><span>e</span>Business</h2>
+                  <img src="<?php echo base_url('assets/img/dwarkikadheesh.png');?>" style="width: 200px">
                 </div>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <p>We are blend of young and experienced professionals who have been experts in the field of administration and marketing. We are fully committed to play our role of Quality Control and quality assessment and therefore our lab is equipped with the latest and most sophisticated testing equipments to meet the standards established by ILAC, ASTM, ISO, BIS & NABL.</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
@@ -33,34 +33,36 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="footer-content">
               <div class="footer-head">
-                <h4>information</h4>
+                  <h4>&nbsp;<br>&nbsp;</h4>
+                <h4>We can be reached</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                  Chardham Mandir, Fatehpur, Kaladungi Road, Haldwani
                 </p>
                 <div class="footer-contacts">
-                  <p><span>Tel:</span> +123 456 789</p>
-                  <p><span>Email:</span> contact@example.com</p>
+                  <p><span>Tel:</span> +91 935 918 4888</p>
+                  <p><span>Email:</span> shree.dwarkadhish.labs@gmail.com</p>
                   <p><span>Working Hours:</span> 9am-5pm</p>
                 </div>
               </div>
             </div>
           </div>
           <!-- end single footer -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <!--div class="col-md-4 col-sm-4 col-xs-12">
             <div class="footer-content">
               <div class="footer-head">
+                  <h4>&nbsp;<br>&nbsp;</h4>
                 <h4>Instagram</h4>
                 <div class="flicker-img">
-                  <a href="#"><img src="<?php echo base_url('assets/img/portfolio/1.jpg');?>" alt=""></a>
-                  <a href="#"><img src="<?php echo base_url('assets/img/portfolio/2.jpg');?>" alt=""></a>
-                  <a href="#"><img src="<?php echo base_url('assets/img/portfolio/3.jpg');?>" alt=""></a>
-                  <a href="#"><img src="<?php echo base_url('assets/img/portfolio/4.jpg');?>" alt=""></a>
-                  <a href="#"><img src="<?php echo base_url('assets/img/portfolio/5.jpg');?>" alt=""></a>
-                  <a href="#"><img src="<?php echo base_url('assets/img/portfolio/6.jpg');?>" alt=""></a>
+                  <a href="#"><img src="<?php //echo base_url('assets/img/portfolio/1.jpg');?>" alt=""></a>
+                  <a href="#"><img src="<?php //echo base_url('assets/img/portfolio/2.jpg');?>" alt=""></a>
+                  <a href="#"><img src="<?php //echo base_url('assets/img/portfolio/3.jpg');?>" alt=""></a>
+                  <a href="#"><img src="<?php //echo base_url('assets/img/portfolio/4.jpg');?>" alt=""></a>
+                  <a href="#"><img src="<?php //echo base_url('assets/img/portfolio/5.jpg');?>" alt=""></a>
+                  <a href="#"><img src="<?php //echo base_url('assets/img/portfolio/6.jpg');?>" alt=""></a>
                 </div>
               </div>
             </div>
-          </div>
+          </div-->
         </div>
       </div>
     </div>
@@ -70,17 +72,11 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="copyright text-center">
               <p>
-                &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+                &copy; Copyright <strong>Shree Dwarkdhish Testing Labs</strong>. All Rights Reserved
               </p>
             </div>
             <div class="credits">
-              <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
-              -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://teamfreelancers.com/" target="_blank">Teamfreelancers.com</a>
             </div>
           </div>
         </div>
@@ -106,7 +102,7 @@
   <!-- Contact Form JavaScript File -->
   <script src="<?php echo base_url('assets/contactform/contactform.js');?>"></script>
 
-  <script src="<?php echo base_url('assets/js/main.js');?>"></script>
+  <script src="<?php echo base_url('assets/js/main.js');?>?version=1.5"></script>
 </body>
 
 </html>

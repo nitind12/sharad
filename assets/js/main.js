@@ -175,6 +175,27 @@
   });
   //portfolio end
 
+  // Contact
+  $('#frmContact').submit(function(){
+    var data_ = $('#frmContact').serialize();
+    var url_ = site_url_ + "/web/contactus";
+    $('#loading_message').html('<span style="color: #aa0000 !important">Loading...</span>');
+    $.ajax({
+      type:'POST',
+      url: url_,
+      data: data_,
+      success: function(data){
+        $('#loading_message').html('<button type="submit">Send Message</button> <button type="reset" id="reset_btn">Cancel</button>');
+        $('#reset_btn').click();
+        alert(data);
+      },
+      error: function(xhr, error, status){
+
+      }
+    })
+    return false;
+  }) 
+  //--------
   /*---------------------
    Circular Bars - Knob
 --------------------- */

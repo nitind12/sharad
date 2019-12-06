@@ -185,10 +185,12 @@ ul {
   padding: 0;
 }
 
-input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"] {
+input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"], button[type="reset"] {
   -moz-appearance: none;
   box-shadow: none !important;
 }
+
+
 
 div#preloader {
   position: fixed;
@@ -1673,6 +1675,25 @@ div#preloader {
 }
 
 .contact-form button[type=submit]:hover {
+  color: #fff;
+  border: 1px solid #3EC1D5;
+  background: #3EC1D5;
+}
+
+.contact-form button[type="reset"] {
+  background: rgba(255, 0, 0, .5) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  border-radius: 30px;
+}
+
+.contact-form button[type=reset]:hover {
   color: #fff;
   border: 1px solid #3EC1D5;
   background: #3EC1D5;
